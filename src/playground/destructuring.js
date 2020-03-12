@@ -1,3 +1,5 @@
+// ----- Object Destructuring -----
+/* 
 const person = {
   name: 'Kusal',
   age: 38,
@@ -26,3 +28,12 @@ const book = {
 const { name: publisherName = 'Self-published' } = book.publisher;
 
 console.log(publisherName);
+ */
+
+// ----- Array Destructuring -----
+
+const address = [ '53 Pickford Street', 'Burwood East', 'Victoria', '3151' ];
+
+const [ street, city, state, postcode ] = address;
+
+console.log(`I live in ${street} ${city} ${state} ${postcode}`);
