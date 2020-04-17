@@ -37,3 +37,10 @@ const address = [ '53 Pickford Street', 'Burwood East', 'Victoria', '3151' ];
 const [ street, city, state, postcode ] = address;
 
 console.log(`I live in ${street} ${city} ${state} ${postcode}`);
+
+
+const item = ['Coffee (hot)', '$2.00', '$2.50', '$2.75'];
+
+const [ coffeeType, , medium ] = item;
+
+console.log(`A Medium ${coffeeType} is ${medium}`);

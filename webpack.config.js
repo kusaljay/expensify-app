@@ -5,7 +5,7 @@ module.exports = {
   mode: 'none',
 
   /* Point or points where to start the application bundling process. If an array is passed then all items will be processed. */
-  entry: './src/playground/destructuring.js',
+  entry: './src/playground/redux-101.js',
 
   /* The top-level output key contains set of options instructing webpack on how and where it should output your bundles, assets and anything else you bundle or load with webpack. */
   output: {
